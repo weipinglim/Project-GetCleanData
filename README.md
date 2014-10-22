@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GetCleanDataProject
 ===================
 The source code is contained within the run_analysis.R. It processes data collected from the accelerometers from the Samsung Galaxy S smartphone. 
@@ -79,3 +80,7 @@ tbsubjectactivity <- cbind(tbtemp, tbsplitmean)
 
 write.table(tbsubjectactivity, "GetCleanDataProject_Step5.txt", row.names = FALSE)
 ```
+=======
+Project-GetCleanData
+====================
+>>>>>>> cc15e6bb82a503c13f235f2d0e827d8a4cb230f4
