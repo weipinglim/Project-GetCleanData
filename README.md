@@ -17,12 +17,12 @@ The code performs data cleaning and reshaping in 5 steps:
 
 1. Forms complete dataset for TEST and TRAIN results comprising feature names as field names, subject id as a new column and activity id and labels as new columns. 
 
-2. Combines the TEST and TRAIN data.
+2. Combines the TEST and TRAIN data using cbind().
 
-3. Extracts Mean and Standard Deviation of each measurement and clean variable names by replacing the dots with a single space.
+3. Extracts Mean and Standard Deviation of each measurement and clean variable names by replacing the dots with a single space. Variables with the term "mean" and "std" in the labels are extracted. "." symbol and extra spaces are removed from the label to make the labels more readable.
 
 4. Creates a second, independent tidy data set with the average of each
-variable for each activity and each subject
+variable for each activity and each subject. This is done by splitting (split()) the dataset using the activity and subject variables follow by applying colmean() to all the mean and std features. Transformation is done to the result to form the final tidy dataset. The word "average" is added to the labels of the features to reflect the new variables.
 
 ### Source Code
 ```
