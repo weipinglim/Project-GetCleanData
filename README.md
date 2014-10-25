@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 GetCleanDataProject
 ===================
 The source code is contained within the run_analysis.R. It processes data collected from the accelerometers from the Samsung Galaxy S smartphone. 
@@ -10,6 +9,14 @@ The data can be downloaded from this link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Note that the source code (GettingCleaningDataProject.R) has to reside in the same working directory as the data folder (UCI HAR Dataset).
+
+###Summary of files in the repo
+
+There are 4 files in this repo
+  * run_analysis.R - R source code to generate the tidy data from the Samsung dataset
+  * README.md - Provides general info and describes how the code works
+  * Codebook.md - Provides info about the tidy dataset generated
+  * GetCleanDataProject_Step5.txt - The exported tidy dataset in text format
 
 ###Summary of Source Code
 
@@ -81,6 +88,4 @@ tbsubjectactivity <- cbind(tbtemp, tbsplitmean)
 write.table(tbsubjectactivity, "GetCleanDataProject_Step5.txt", row.names = FALSE)
 ```
 =======
-Project-GetCleanData
-====================
->>>>>>> cc15e6bb82a503c13f235f2d0e827d8a4cb230f4
+

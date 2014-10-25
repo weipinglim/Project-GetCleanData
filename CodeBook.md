@@ -33,32 +33,32 @@ There are 81 variables. There are 79 variables of features representing mean and
     * Average tBodyAcc StandardDeviation Y          
     * Average tBodyAcc StandardDeviation Z  
 
-  *Averages of the mean of the gravity acceleration signals n 3 axis - X, Y and Z.     
+  * Averages of the mean of the gravity acceleration signals n 3 axis - X, Y and Z.     
     * Average tGravityAcc mean X                    
     * Average tGravityAcc mean Y                    
     * Average tGravityAcc mean Z 
 
-  *Averages of the standard deviation of the gravity acceleration signals n 3 axis - X, Y and Z.                       
+  * Averages of the standard deviation of the gravity acceleration signals n 3 axis - X, Y and Z.                       
     * Average tGravityAcc StandardDeviation X       
     * Average tGravityAcc StandardDeviation Y       
     * Average tGravityAcc StandardDeviation Z 
 
-  *Averages of the mean of the body linear acceleration in 3 axis - X, Y and Z.      
+  * Averages of the mean of the body linear acceleration in 3 axis - X, Y and Z.      
     * Average tBodyAccJerk mean X                   
     * Average tBodyAccJerk mean Y                   
     * Average tBodyAccJerk mean Z 
 
-  *Averages of the standard deviation of the body linear acceleration in 3 axis - X, Y and Z.                     
+  * Averages of the standard deviation of the body linear acceleration in 3 axis - X, Y and Z.                     
     * Average tBodyAccJerk StandardDeviation X      
     * Average tBodyAccJerk StandardDeviation Y      
     * Average tBodyAccJerk StandardDeviation Z 
 
-  *Averages of the mean of the body angular velocity in 3 axis - X, Y and Z.       
+  * Averages of the mean of the body angular velocity in 3 axis - X, Y and Z.       
     * Average tBodyGyro mean X                      
     * Average tBodyGyro mean Y                      
     * Average tBodyGyro mean Z
 
-  *Averages of the standard deviation of the body angular velocity in 3 axis - X, Y and Z.                       
+  * Averages of the standard deviation of the body angular velocity in 3 axis - X, Y and Z.                       
     * Average tBodyGyro StandardDeviation X        
     * Average tBodyGyro StandardDeviation Y         
     * Average tBodyGyro StandardDeviation Z
@@ -154,9 +154,9 @@ There are 81 variables. There are 79 variables of features representing mean and
     * Average fBodyBodyGyroMag meanFreq
 
   * Averages of the mean, standard deviation and mean frequency of frequency domain signals of the magnitude of the body angular velocity Jerk signals calculated using the Euclidean norm.                  
-  * Average fBodyBodyGyroJerkMag mean               
-  * Average fBodyBodyGyroJerkMag StandardDeviation  
-  * Average fBodyBodyGyroJerkMag meanFreq
+    * Average fBodyBodyGyroJerkMag mean               
+    * Average fBodyBodyGyroJerkMag StandardDeviation  
+    * Average fBodyBodyGyroJerkMag meanFreq
 
 ### Data Cleaning
 1. The original data comprises the 7352 records of training data and 2947 records of test data. The datasets contain 562 variables each representing a feature. Both datasets were merged into one data set.
